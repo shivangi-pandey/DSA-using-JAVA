@@ -1,25 +1,25 @@
-package Patterns;
+package DSA.Patterns;
 
-//EXPECTED OUTPUT:
+//EXPECTED OUTPUT
 /*
     *****
-    *****
-    *****
-    *****
-    *****
+    ****
+    ***
+    **
+    *
+
 */
 
 
-public class Pattern1 {
-
+public class Pattern3 {
     public static void main(String[] args){
-        pattern1(5);
+        pattern3(5);
     }
-    static void pattern1(int n){
+    static void pattern3(int n){
         //loop for number of rows
         for(int i=1;i<=n;i++){
             //2nd loop for number of columns
-                for(int j=1;j<=5;j++){
+                for(int j=1;j<=n-i+1;j++){
                     System.out.print("*");
                 }
                 //for next line
@@ -27,4 +27,5 @@ public class Pattern1 {
         }
     }
 }
+
 

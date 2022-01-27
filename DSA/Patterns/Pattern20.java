@@ -1,4 +1,4 @@
-package Patterns;
+package DSA.Patterns;
 
 public 
 class Pattern20 {

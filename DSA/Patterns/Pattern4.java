@@ -1,28 +1,29 @@
-package Patterns;
+package DSA.Patterns;
 
-//EXPECTED OUTPUT:
-/*
-    *
-    **
-    ***
-    ****
-    *****
+/*EXPECTED OUTPUT
+
+    1
+    12
+    123
+    1234
+    12345
 */
 
-public class Pattern2 {
 
+public class Pattern4 {
     public static void main(String[] args){
-        pattern2(5);
+        pattern4(5);
     }
-    static void pattern2(int n){
+    static void pattern4(int n){
         //loop for number of rows
         for(int i=1;i<=n;i++){
             //2nd loop for number of columns
                 for(int j=1;j<=i;j++){
-                    System.out.print("*");
+                    System.out.print(j);
                 }
                 //for next line
                 System.out.println();
         }
     }
+    
 }
